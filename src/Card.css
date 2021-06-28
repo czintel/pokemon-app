@@ -5,20 +5,17 @@
   width: 300px;
   height: auto;
   background: rgb(243, 243, 243);
+  color: gray;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(26, 25, 25, 0.15);
 }
 
 .Card__Name {
   line-height: 1;
-  padding: 10px;
-  padding-top: 13px;
   margin: 0;
   border-radius: 5px;
-  background: white;
   font-weight: 500;
   font-size: 40px;
-  color: gray;
 }
 
 .Card__Image {
@@ -28,7 +25,6 @@
 .Card__Types-List {
   display: flex;
   justify-content: space-evenly;
-  color: gray;
   gap: 20px;
   padding: 0;
   list-style-type: none;
